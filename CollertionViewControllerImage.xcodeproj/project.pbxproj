@@ -1,0 +1,583 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		80657E3D2111374B00421118 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80657E3C2111374B00421118 /* AppDelegate.swift */; };
+		80657E3F2111374B00421118 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80657E3E2111374B00421118 /* ViewController.swift */; };
+		80657E422111374B00421118 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80657E402111374B00421118 /* Main.storyboard */; };
+		80657E442111374C00421118 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 80657E432111374C00421118 /* Assets.xcassets */; };
+		80657E472111374C00421118 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80657E452111374C00421118 /* LaunchScreen.storyboard */; };
+		80657E522111374C00421118 /* CollertionViewControllerImageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80657E512111374C00421118 /* CollertionViewControllerImageTests.swift */; };
+		80657E5D2111374C00421118 /* CollertionViewControllerImageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80657E5C2111374C00421118 /* CollertionViewControllerImageUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		80657E4E2111374C00421118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80657E312111374B00421118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80657E382111374B00421118;
+			remoteInfo = CollertionViewControllerImage;
+		};
+		80657E592111374C00421118 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 80657E312111374B00421118 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 80657E382111374B00421118;
+			remoteInfo = CollertionViewControllerImage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		80657E392111374B00421118 /* CollertionViewControllerImage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CollertionViewControllerImage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		80657E3C2111374B00421118 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		80657E3E2111374B00421118 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		80657E412111374B00421118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		80657E432111374C00421118 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		80657E462111374C00421118 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		80657E482111374C00421118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80657E4D2111374C00421118 /* CollertionViewControllerImageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollertionViewControllerImageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80657E512111374C00421118 /* CollertionViewControllerImageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollertionViewControllerImageTests.swift; sourceTree = "<group>"; };
+		80657E532111374C00421118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		80657E582111374C00421118 /* CollertionViewControllerImageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CollertionViewControllerImageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		80657E5C2111374C00421118 /* CollertionViewControllerImageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollertionViewControllerImageUITests.swift; sourceTree = "<group>"; };
+		80657E5E2111374C00421118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		80657E362111374B00421118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80657E4A2111374C00421118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80657E552111374C00421118 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		80657E302111374B00421118 = {
+			isa = PBXGroup;
+			children = (
+				80657E3B2111374B00421118 /* CollertionViewControllerImage */,
+				80657E502111374C00421118 /* CollertionViewControllerImageTests */,
+				80657E5B2111374C00421118 /* CollertionViewControllerImageUITests */,
+				80657E3A2111374B00421118 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		80657E3A2111374B00421118 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				80657E392111374B00421118 /* CollertionViewControllerImage.app */,
+				80657E4D2111374C00421118 /* CollertionViewControllerImageTests.xctest */,
+				80657E582111374C00421118 /* CollertionViewControllerImageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		80657E3B2111374B00421118 /* CollertionViewControllerImage */ = {
+			isa = PBXGroup;
+			children = (
+				80657E3C2111374B00421118 /* AppDelegate.swift */,
+				80657E3E2111374B00421118 /* ViewController.swift */,
+				80657E402111374B00421118 /* Main.storyboard */,
+				80657E432111374C00421118 /* Assets.xcassets */,
+				80657E452111374C00421118 /* LaunchScreen.storyboard */,
+				80657E482111374C00421118 /* Info.plist */,
+			);
+			path = CollertionViewControllerImage;
+			sourceTree = "<group>";
+		};
+		80657E502111374C00421118 /* CollertionViewControllerImageTests */ = {
+			isa = PBXGroup;
+			children = (
+				80657E512111374C00421118 /* CollertionViewControllerImageTests.swift */,
+				80657E532111374C00421118 /* Info.plist */,
+			);
+			path = CollertionViewControllerImageTests;
+			sourceTree = "<group>";
+		};
+		80657E5B2111374C00421118 /* CollertionViewControllerImageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				80657E5C2111374C00421118 /* CollertionViewControllerImageUITests.swift */,
+				80657E5E2111374C00421118 /* Info.plist */,
+			);
+			path = CollertionViewControllerImageUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		80657E382111374B00421118 /* CollertionViewControllerImage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80657E612111374C00421118 /* Build configuration list for PBXNativeTarget "CollertionViewControllerImage" */;
+			buildPhases = (
+				80657E352111374B00421118 /* Sources */,
+				80657E362111374B00421118 /* Frameworks */,
+				80657E372111374B00421118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CollertionViewControllerImage;
+			productName = CollertionViewControllerImage;
+			productReference = 80657E392111374B00421118 /* CollertionViewControllerImage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		80657E4C2111374C00421118 /* CollertionViewControllerImageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80657E642111374C00421118 /* Build configuration list for PBXNativeTarget "CollertionViewControllerImageTests" */;
+			buildPhases = (
+				80657E492111374C00421118 /* Sources */,
+				80657E4A2111374C00421118 /* Frameworks */,
+				80657E4B2111374C00421118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80657E4F2111374C00421118 /* PBXTargetDependency */,
+			);
+			name = CollertionViewControllerImageTests;
+			productName = CollertionViewControllerImageTests;
+			productReference = 80657E4D2111374C00421118 /* CollertionViewControllerImageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		80657E572111374C00421118 /* CollertionViewControllerImageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 80657E672111374C00421118 /* Build configuration list for PBXNativeTarget "CollertionViewControllerImageUITests" */;
+			buildPhases = (
+				80657E542111374C00421118 /* Sources */,
+				80657E552111374C00421118 /* Frameworks */,
+				80657E562111374C00421118 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				80657E5A2111374C00421118 /* PBXTargetDependency */,
+			);
+			name = CollertionViewControllerImageUITests;
+			productName = CollertionViewControllerImageUITests;
+			productReference = 80657E582111374C00421118 /* CollertionViewControllerImageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		80657E312111374B00421118 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = dohien;
+				TargetAttributes = {
+					80657E382111374B00421118 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					80657E4C2111374C00421118 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 80657E382111374B00421118;
+					};
+					80657E572111374C00421118 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 80657E382111374B00421118;
+					};
+				};
+			};
+			buildConfigurationList = 80657E342111374B00421118 /* Build configuration list for PBXProject "CollertionViewControllerImage" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 80657E302111374B00421118;
+			productRefGroup = 80657E3A2111374B00421118 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				80657E382111374B00421118 /* CollertionViewControllerImage */,
+				80657E4C2111374C00421118 /* CollertionViewControllerImageTests */,
+				80657E572111374C00421118 /* CollertionViewControllerImageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		80657E372111374B00421118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80657E472111374C00421118 /* LaunchScreen.storyboard in Resources */,
+				80657E442111374C00421118 /* Assets.xcassets in Resources */,
+				80657E422111374B00421118 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80657E4B2111374C00421118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80657E562111374C00421118 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		80657E352111374B00421118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80657E3F2111374B00421118 /* ViewController.swift in Sources */,
+				80657E3D2111374B00421118 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80657E492111374C00421118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80657E522111374C00421118 /* CollertionViewControllerImageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		80657E542111374C00421118 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				80657E5D2111374C00421118 /* CollertionViewControllerImageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		80657E4F2111374C00421118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80657E382111374B00421118 /* CollertionViewControllerImage */;
+			targetProxy = 80657E4E2111374C00421118 /* PBXContainerItemProxy */;
+		};
+		80657E5A2111374C00421118 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 80657E382111374B00421118 /* CollertionViewControllerImage */;
+			targetProxy = 80657E592111374C00421118 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		80657E402111374B00421118 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80657E412111374B00421118 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		80657E452111374C00421118 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				80657E462111374C00421118 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		80657E5F2111374C00421118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		80657E602111374C00421118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		80657E622111374C00421118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollertionViewControllerImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hienhihi.CollertionViewControllerImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		80657E632111374C00421118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollertionViewControllerImage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hienhihi.CollertionViewControllerImage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		80657E652111374C00421118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollertionViewControllerImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hienhihi.CollertionViewControllerImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollertionViewControllerImage.app/CollertionViewControllerImage";
+			};
+			name = Debug;
+		};
+		80657E662111374C00421118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollertionViewControllerImageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hienhihi.CollertionViewControllerImageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CollertionViewControllerImage.app/CollertionViewControllerImage";
+			};
+			name = Release;
+		};
+		80657E682111374C00421118 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollertionViewControllerImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hienhihi.CollertionViewControllerImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CollertionViewControllerImage;
+			};
+			name = Debug;
+		};
+		80657E692111374C00421118 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = CollertionViewControllerImageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hienhihi.CollertionViewControllerImageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = CollertionViewControllerImage;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		80657E342111374B00421118 /* Build configuration list for PBXProject "CollertionViewControllerImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80657E5F2111374C00421118 /* Debug */,
+				80657E602111374C00421118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80657E612111374C00421118 /* Build configuration list for PBXNativeTarget "CollertionViewControllerImage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80657E622111374C00421118 /* Debug */,
+				80657E632111374C00421118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80657E642111374C00421118 /* Build configuration list for PBXNativeTarget "CollertionViewControllerImageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80657E652111374C00421118 /* Debug */,
+				80657E662111374C00421118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		80657E672111374C00421118 /* Build configuration list for PBXNativeTarget "CollertionViewControllerImageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80657E682111374C00421118 /* Debug */,
+				80657E692111374C00421118 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 80657E312111374B00421118 /* Project object */;
+}
