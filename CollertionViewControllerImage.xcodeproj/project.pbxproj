@@ -49,6 +49,7 @@
 		80657E5E2111374C00421118 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		80657E6A2111385800421118 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		80657E6C21113A5600421118 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		B3087F07219D7CE3004204F4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		80657E302111374B00421118 = {
 			isa = PBXGroup;
 			children = (
+				B3087F07219D7CE3004204F4 /* README.md */,
 				80657E3B2111374B00421118 /* CollertionViewControllerImage */,
 				80657E502111374C00421118 /* CollertionViewControllerImageTests */,
 				80657E5B2111374C00421118 /* CollertionViewControllerImageUITests */,
